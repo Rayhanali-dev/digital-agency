@@ -1,0 +1,114 @@
+/* ============================
+    Common css start
+============================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* ============================
+    Common css end
+============================ */
+
+/* ============================
+    haeder css start
+============================ */
+
+.navbar {
+    /* background: #737373; */
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-main-menu {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* ============================
+    haeder css end
+============================ */
+
+
+/* ============================
+    banner css start
+============================ */
+
+.banner {
+    background: url(../asset/image/background.jpg) no-repeat center/cover, linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    padding: 235px 0;
+    background-blend-mode: overlay;
+}
+
+.banner-content {
+    text-align: center;
+}
+
+.banner-title {
+    font-size: 60px;
+    font-weight: 900;
+    color: #fff;
+    padding: 0 205px;
+    margin-bottom: 20px;
+}
+
+.banner-title span {
+    color: red;
+}
+
+.banner-description {
+    color: #fff;
+    font-size: 20px;
+    padding: 0 130px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    padding: 15px 35px;
+    background-color: aliceblue;
+    color: black;
+    font-size: 20px;
+}
+
+.discover {
+    background-color: red;
+    color: #fff;
+    margin-right: 15px;
+}
+
+/* ============================
+    banner css end
+============================ */
+
