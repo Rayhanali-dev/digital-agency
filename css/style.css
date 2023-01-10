@@ -266,7 +266,7 @@ ul, ol {
 
 .appoinment {
     margin-bottom: 65px;
-    margin-top: -72px;
+    margin-top: -85px;
 }
 
 .appinment-container {
@@ -277,8 +277,8 @@ ul, ol {
 
 .appoinment-left {
     width: 330px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     border-right: 1px solid yellow;
 }
 
@@ -289,7 +289,7 @@ ul, ol {
 .appoinment-wrapper {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .inner-left-apoinment {
@@ -328,6 +328,8 @@ ul, ol {
 .right-appoinment-wrapper p {
     font-size: 14px;
     color: #fff;
+    margin-left: -57px;
+    padding-right: 46px;
 }
 
 .right-appoinment-wrapper a {
@@ -338,4 +340,156 @@ ul, ol {
 }
 /* ============================
     appoinment css end
+============================ */
+
+
+/* ============================
+        blog css start
+============================ */
+
+.blog {
+    margin-bottom: 50px;
+}
+
+.blog-heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.blog-heading-title {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.blog-heading-title span {
+    color: red;
+}
+
+.blog-description {
+    font-size: 20px;
+    color: #000;
+    padding: 0 180px;
+    line-height: 26px;
+}
+
+.blog-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.blog-item {
+    width: 350px;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 10px;
+}
+
+.blog-item img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.blog-item-description {
+    padding: 20px;
+}
+
+.blog-item-description h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(26, 24, 24);
+    margin-bottom: 20px;
+}
+
+.blog-item-description p {
+    font-size: 18px;
+    color: rgb(76, 72, 72);
+    margin-bottom: 15px;
+}
+
+
+/* ============================
+        blog css end
+============================ */
+
+/* ============================
+        footer css start
+============================ */
+.footer {
+    background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.9)), url(../asset/image/footer-bg.png) no-repeat center/cover;
+    background-blend-mode: overlay;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+.footer-logo {
+    margin-bottom: 20px;
+}
+
+.footer-description {
+    color: #fff;
+    padding-right: 70px;
+}
+
+.footer-icon {
+    margin-top: 20px;
+}
+
+.footer-icon a {
+    margin-right: 10px;
+}
+
+.footer-icon a i {
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-item {
+    width: 270px;
+}
+
+.footer-heading {
+    color: #fff;
+    margin-top: 10px;
+}
+
+.footer-item-menu {
+    margin-top: 40px;
+}
+
+.footer-item-menu ul li a {
+    color: #fff;
+}
+
+.footer-item-menu li {
+    margin-bottom: 10px;
+}
+
+.footer-item-menu li i {
+    color: #fff;
+}
+
+.first-item {
+    width: 350px;
+}
+
+hr {
+    margin-top: 150px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.copyright-text {
+    color: #fff;
+    margin-top: 30px;
+}
+/* ============================
+        footer css end
 ============================ */
