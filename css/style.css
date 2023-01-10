@@ -167,6 +167,7 @@ ul, ol {
     font-size: 20px;
     color: rgb(190, 207, 208);
     margin-bottom: 30px;
+    padding-right: 70px;
 }
 
 .service-left-list ul {
@@ -259,5 +260,82 @@ ul, ol {
     section css end
 ============================ */
 
+/* ============================
+    appoinment css start
+============================ */
 
+.appoinment {
+    margin-bottom: 65px;
+    margin-top: -72px;
+}
 
+.appinment-container {
+    background-color: red;
+    border-radius: 20px;
+
+}
+
+.appoinment-left {
+    width: 330px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-right: 1px solid yellow;
+}
+
+.appoinment-right {
+    width: 700px;
+}
+
+.appoinment-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-left-apoinment {
+    display: flex;
+    align-items: center;
+}
+
+.inner-left-apoinment img {
+    width: 100px;
+}
+
+.inner-left-appoinment-content {
+    width: 220px;
+    padding-left: 20px;
+}
+
+.appoinment-left-title {
+    font-size: 0.67em;
+    font-weight: 700;
+    color: #fff;
+}
+
+.appoinment-left-sub-title {
+    font-size: 1.8em;
+    color: #fff;
+}
+
+.appoinment-right {
+    padding-left: 11px;
+}
+
+.right-appoinment-wrapper {
+    display: flex;
+}
+
+.right-appoinment-wrapper p {
+    font-size: 14px;
+    color: #fff;
+}
+
+.right-appoinment-wrapper a {
+    padding: 15px 25px;
+    background-color: #fff;
+    width: 56%;
+    border-radius: 30px;
+}
+/* ============================
+    appoinment css end
+============================ */
